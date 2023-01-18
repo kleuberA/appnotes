@@ -14,7 +14,7 @@
     ],
     "headers": [
         {
-            "source": "/:id)",
+            "source": "/:id",
             "headers": [
                 { "key": "Access-Control-Allow-Credentials", "value": "true" },
                 { "key": "Access-Control-Allow-Origin", "value": "*" },

@@ -1,0 +1,115 @@
+body {
+    background-color: #1a202b;
+}
+a {
+    text-decoration: none;
+}
+
+.minimalistic-container {
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    color: #a7e9c5;
+    font-weight: 700;
+    letter-spacing: 4px;
+    font-family: monospace,sans-serif;
+    font-size: 50px;
+}
+
+.container1 {
+    font-size: 35px;
+    opacity: 0.7;
+    transition: 2s;
+    animation: mymove 2s linear infinite;
+}
+
+.container2 {
+    font-size: 50px;
+    opacity: 0.68;
+    transition: 2s;
+    animation: mymove 2s linear infinite;
+}
+
+.container3 {
+    font-size: 45px;
+    opacity: 0.67;
+    transition: 2s;
+    animation: myOpacity 2s linear infinite;
+}
+
+.container4 {
+    font-size: 50px;
+    opacity: 0.7;
+    transition: 2s;
+    animation: mymove 2s linear infinite;
+}
+
+.container5 {
+    font-size: 50px;
+    opacity: 0.7;
+    transition: 2s;
+    animation: myOpacity 2s linear infinite;
+}
+
+.container6 {
+    font-size: 50px;
+    opacity: 0.7;
+    transition: 2s;
+    animation: mymove 2s linear infinite;
+}
+
+.container7 {
+    font-size: 50px;
+    opacity: 0.7;
+    transition: 2s;
+    animation: myOpacity 2s linear infinite;
+}
+
+.container8 {
+    font-size: 50px;
+    opacity: 0.7;
+    transition: 2s;
+    animation: mymove 2s linear infinite;
+}
+
+.iconNotes{
+    transition: 2s;
+    animation: animaIcon 2s alternate-reverse infinite;
+}
+
+@keyframes animaIcon{
+    from{
+        transform: scale(0.5);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+@keyframes mymove {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes myOpacity {
+    0% {
+        opacity: 0.1;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.1;
+    }
+}
